@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(img/Fundo\ editado.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container, footer{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    color: #fff;
+}
+section .container img{
+    height: 24px;
+}
+.social-links img {
+    height: 34px;
+}
+#Contatos h3{
+    color: #32d337;
+}
+#Contatos{
+    margin-top: 30px;
+}
+.social-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+header .container,
+section .container{
+    display: flex;
+    align-items: center;/*Deixou os links e o h1 da loja na mesma linha  */
+    justify-content: space-between;/*separou o h1 do link deixado um em cada canto da pagina*/
+}
+section .container h2{
+    margin-bottom:2px;
+    font-size: 42px;
+    color: #32d337;
+    font-family: 'Goldman', sans-serif;
+}
+section .container p{
+    padding-top: 12px;
+    padding-right: 50%;
+    font-weight: normal;
+    font-size: 22px;
+    color:#fff;
+    font-family: 'Share Tech Mono', monospace;
+}
+section .container h3{
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 12px;
+    
+}
+section .container button{
+    cursor: pointer;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #32d337;
+    border: 1px solid transparent;
+    font-size: 15px;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 12px;
+    padding: 8px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+}
+form input:focus,
+form textarea:focus {
+    outline-color: #182c61;
+}
+form button{
+    display: block;
+}
+form textarea {
+    resize: none;
+    height: 140px;
+}
+footer{
+    color: #fff;
+    margin-top: 111px;
+}
